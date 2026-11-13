@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.videobackgroundremover/video-background-remover",
+  "title": "Video Background Remover",
+  "description": "Remote MCP for paid video background removal and transparent or green screen exports.",
+  "version": "1.0.0",
+  "websiteUrl": "https://videobackgroundremover.ai/video-background-remover-api",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://videobackgroundremover.ai/mcp"
+    }
+  ]
+}
